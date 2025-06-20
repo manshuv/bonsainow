@@ -52,6 +52,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 22:43:07</sys_created_on>
+        <sys_id>242ae2f383e229102a3771647daad321</sys_id>
         <sys_name>Event Description</sys_name>
         <sys_package display_value="BonsaiNow" source="x_snc_bonsainow">0227e23383e229102a3771647daad316</sys_package>
         <sys_policy/>
