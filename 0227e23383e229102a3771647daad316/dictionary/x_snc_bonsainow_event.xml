@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a1d72e3383e229102a3771647daad3ba" label="Event" max_length="40" name="x_snc_bonsainow_event" type="collection">
+        <element label="Event Description" max_length="5000" name="event_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Repotting" value="Repotting"/>
+                <element inactive_on_update="false" label="Pruning" value="Pruning"/>
+                <element inactive_on_update="false" label="Purchase" value="Purchase"/>
+            </choice>
+        </element>
+        <element label="Event Date" max_length="40" name="event_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Event Type" max_length="40" name="event_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Purchase" value="Purchase"/>
+                <element inactive_on_update="false" label="Disease" value="Disease"/>
+                <element inactive_on_update="false" label="Pruning" value="Pruning"/>
+                <element inactive_on_update="false" label="Repotting" value="Repotting"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Allow read for purchase_price in x_snc_bonsainow_treename.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_snc_bonsainow_treename.*</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[
+// Allow write only if status is 'approved'
+if (current.status == 'approved') {
+    answer = true;
+} else {
+    answer = false;
+}
+]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 04:02:48</sys_created_on>
+        <sys_id>c1489477836566502a3771647daad377</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>x_snc_bonsainow_treename.*</sys_name>
+        <sys_package display_value="BonsaiNow" source="x_snc_bonsainow">0227e23383e229102a3771647daad316</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BonsaiNow">0227e23383e229102a3771647daad316</sys_scope>
+        <sys_update_name>sys_security_acl_c1489477836566502a3771647daad377</sys_update_name>
+        <sys_updated_by>Monica</sys_updated_by>
+        <sys_updated_on>2025-05-29 12:41:26</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BonsaiNow">0227e23383e229102a3771647daad316</application>
+        <file_path/>
+        <instance_id>fe290ed0dbb96d1c91232f17d496194a</instance_id>
+        <instance_name>empmverma1</instance_name>
+        <name>sys_security_acl_c1489477836566502a3771647daad377</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;false&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Allow read for purchase_price in x_snc_bonsainow_treename.&lt;/description&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;x_snc_bonsainow_treename.*&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[
+// Allow write only if status is 'approved'
+if (current.status == 'approved') {
+    answer = true;
+} else {
+    answer = false;
+}
+]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-23 04:02:48&lt;/sys_created_on&gt;&lt;sys_id&gt;c1489477836566502a3771647daad377&lt;/sys_id&gt;&lt;sys_mod_count&gt;27&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_snc_bonsainow_treename.*&lt;/sys_name&gt;&lt;sys_package display_value="BonsaiNow" source="x_snc_bonsainow"&gt;0227e23383e229102a3771647daad316&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BonsaiNow"&gt;0227e23383e229102a3771647daad316&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_c1489477836566502a3771647daad377&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Monica&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-29 12:41:26&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1437398355</payload_hash>
+        <record_name>x_snc_bonsainow_treename.*</record_name>
+        <reverted_from/>
+        <source>ca27e23383e229102a3771647daad317</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Monica</sys_created_by>
+        <sys_created_on>2025-05-29 12:41:27</sys_created_on>
+        <sys_id>5e0c8535c37d2690c8129bf90501317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1971c0fcd040000001</sys_recorded_at>
+        <sys_updated_by>Monica</sys_updated_by>
+        <sys_updated_on>2025-05-29 12:41:27</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>160c8535267d26909f1d849ea4e8397b</update_guid>
+        <update_guid_history>160c8535267d26909f1d849ea4e8397b:-1437398355,a5db8535987d26901870dfd2a921633c:1697802429,61ab0135f27d26902b95c490f4468316:-1689578378,42b90171d57d26903a8127925d971345:1697802429,0449cdfdc43d26901cbba68fb8d99bd1:316449918,01d505f9173d2690e8022c3504e9ef86:1697802429,c5658db9ad3d2690420e1d0344103685:316449918,a35449798b3d26906f9fd8fbdd001be0:-2069744268,adbdb471b63d269022f0f5a414ffe3ef:739034180,2c8bb8bd59f9269008a4b39bf03e2af1:-2069744268,e04bfc7dd9f92690a571770617afafd5:399918939,64d93cf9f9f92690ce890054ea53d25e:-2069744268,44b978f94cf926902b2637f7b51044fb:399918939,d969f0f9e1f92690cf75904e449fca0b:-1988551905,3ae8b4b9b7f926905d46a389aa86abba:504010572,b0815b6966f92e50f1b45d6ede9ca271:-2048651781,b69d388562f1aa50ddd62f5ed0c3c478:-1262443390,a54cfc051ef1aa507e667e2f8e627d8b:-128270327,9954bc0d82b1aa5073c10724b0a6985d:-1078129840,ff13f4c9d3b1aa504a5b48b15c3a80c4:-2117460704,22dae27cd8b52290ff8a5c4c930aa0e7:-558604728,b9886eb895b52290d2b02af880175e64:1986187450,323866b83ab52290310155353676ce31:-482791309,4cd72a7881b52290467faf400d0cdb21:-1021864608,acb6aaf494b522901e8da18059ce1c27:-1283926704,68962af4d5b522909d3ed88ff114ee06:-1683970965,238422345fb5229022bea73987a19dac:1986187450,32cb507bc465665009d821a0e51cd100:1167125290</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Monica</sys_created_by>
+        <sys_created_on>2025-05-29 14:13:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>231593323ac044e2af9e8f8b33040769</sys_id>
+        <sys_metadata>c1489477836566502a3771647daad377</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_bonsainow_treename.*</sys_name>
+        <sys_package display_value="BonsaiNow" source="x_snc_bonsainow">0227e23383e229102a3771647daad316</sys_package>
+        <sys_parent display_value="x_snc_bonsainow_treename">89872a3383e229102a3771647daad32c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BonsaiNow">0227e23383e229102a3771647daad316</sys_scope>
+        <sys_scope_delete display_value="">119a2f85bc744b0d9f8e389cc8337eb1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_c1489477836566502a3771647daad377</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_c1489477836566502a3771647daad377">5e0c8535c37d2690c8129bf90501317b</sys_update_version>
+        <sys_updated_by>Monica</sys_updated_by>
+        <sys_updated_on>2025-05-29 14:13:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

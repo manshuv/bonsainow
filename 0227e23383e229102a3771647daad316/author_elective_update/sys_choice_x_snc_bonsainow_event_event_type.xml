@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="event_type" table="x_snc_bonsainow_event" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>event_type</element>
+            <name>x_snc_bonsainow_event</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-08 22:39:03</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>event_type</sys_name>
+            <sys_package display_value="BonsaiNow" source="x_snc_bonsainow">0227e23383e229102a3771647daad316</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BonsaiNow">0227e23383e229102a3771647daad316</sys_scope>
+            <sys_update_name>sys_choice_x_snc_bonsainow_event_event_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-08 22:39:03</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- New choice --</label>
+            <language>en</language>
+            <name>x_snc_bonsainow_event</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-08 22:39:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-08 22:39:03</sys_updated_on>
+            <value>-- New choice --</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disease</label>
+            <language>en</language>
+            <name>x_snc_bonsainow_event</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-08 22:40:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-08 22:40:13</sys_updated_on>
+            <value>Disease</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pruning</label>
+            <language>en</language>
+            <name>x_snc_bonsainow_event</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-08 22:39:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-08 22:39:55</sys_updated_on>
+            <value>Pruning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Purchase</label>
+            <language>en</language>
+            <name>x_snc_bonsainow_event</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-08 22:39:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-08 22:39:23</sys_updated_on>
+            <value>Purchase</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Repotting</label>
+            <language>en</language>
+            <name>x_snc_bonsainow_event</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-08 22:39:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-08 22:39:41</sys_updated_on>
+            <value>Repotting</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
