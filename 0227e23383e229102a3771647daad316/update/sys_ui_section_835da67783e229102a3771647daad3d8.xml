@@ -100,7 +100,7 @@
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>dead_alive</element>
-            <position>7</position>
+            <position>15</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-06-20 22:25:31</sys_created_on>
             <sys_id>30b4ec85c35a2250c8129bf905013167</sys_id>
