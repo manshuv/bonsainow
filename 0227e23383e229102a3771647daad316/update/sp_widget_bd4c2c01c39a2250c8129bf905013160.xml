@@ -51,33 +51,6 @@
         </div>
     </div>
 </div>]]></template>
-        <styles><![CDATA[.tree-of-day-widget {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .tree-container {
-            text-align: center;
-        }
-        .tree-container h2 {
-            color: #333;
-            margin-bottom: 20px;
-            font-size: 1.5em;
-        }
-        .tree-image {
-            margin: 20px 0;
-        }
-        .bonsai-image {
-            max-width: 300px;
-            height: auto;
-            border-radius: 4px;
-        }
-        .tree-description {
-            margin-top: 20px;
-            color: #666;
-            line-height: 1.6;
-        }]]></styles>
     </sp_widget>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>bd4c2c01c39a2250c8129bf905013160</id>
