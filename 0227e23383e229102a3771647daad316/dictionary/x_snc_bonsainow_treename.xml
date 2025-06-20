@@ -13,6 +13,12 @@
         <element label="Description" max_length="1500" name="description" type="string"/>
         <element label="Purchase Price" max_length="20" name="purchase_price" type="currency"/>
         <element label="Purchased At" max_length="500" name="purchased_at" type="string"/>
+        <element label="Dead/Alive?" max_length="40" name="dead_alive" mandatory="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dead" sequence="1" value="dead"/>
+                <element inactive_on_update="false" label="Alive" sequence="2" value="alive"/>
+            </choice>
+        </element>
         <element label="Kind" max_length="32" name="kind" reference="x_snc_bonsainow_species" type="reference"/>
         <index name="index">
             <element name="event"/>
