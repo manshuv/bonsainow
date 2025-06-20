@@ -3,196 +3,210 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tree_name</element>
             <position>0</position>
-            <sys_created_by>Monica</sys_created_by>
-            <sys_created_on>2025-05-29 12:28:38</sys_created_on>
-            <sys_id>7a19cdfdc33d2690c8129bf905013106</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>30b4ec85c35a2250c8129bf905013164</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
-            <sys_updated_by>Monica</sys_updated_by>
-            <sys_updated_on>2025-05-29 12:28:38</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
             <position>1</position>
-            <sys_created_by>Monica</sys_created_by>
-            <sys_created_on>2025-05-29 12:28:38</sys_created_on>
-            <sys_id>fe19cdfdc33d2690c8129bf905013106</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>3cb4ec85c35a2250c8129bf905013164</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
-            <sys_updated_by>Monica</sys_updated_by>
-            <sys_updated_on>2025-05-29 12:28:38</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>2</position>
-            <sys_created_by>Monica</sys_created_by>
-            <sys_created_on>2025-05-29 12:28:38</sys_created_on>
-            <sys_id>7619cdfdc33d2690c8129bf905013107</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>b0b4ec85c35a2250c8129bf905013165</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
-            <sys_updated_by>Monica</sys_updated_by>
-            <sys_updated_on>2025-05-29 12:28:38</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>purchase_price</element>
             <position>3</position>
-            <sys_created_by>Monica</sys_created_by>
-            <sys_created_on>2025-05-29 12:28:38</sys_created_on>
-            <sys_id>fa19cdfdc33d2690c8129bf905013107</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>38b4ec85c35a2250c8129bf905013165</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
-            <sys_updated_by>Monica</sys_updated_by>
-            <sys_updated_on>2025-05-29 12:28:38</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>4</position>
-            <sys_created_by>Monica</sys_created_by>
-            <sys_created_on>2025-05-29 12:28:38</sys_created_on>
-            <sys_id>7219cdfdc33d2690c8129bf905013108</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>bcb4ec85c35a2250c8129bf905013165</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
-            <sys_updated_by>Monica</sys_updated_by>
-            <sys_updated_on>2025-05-29 12:28:38</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>purchase_date</element>
             <position>5</position>
-            <sys_created_by>Monica</sys_created_by>
-            <sys_created_on>2025-05-29 12:28:38</sys_created_on>
-            <sys_id>f619cdfdc33d2690c8129bf905013108</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>34b4ec85c35a2250c8129bf905013166</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
-            <sys_updated_by>Monica</sys_updated_by>
-            <sys_updated_on>2025-05-29 12:28:38</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status</element>
             <position>6</position>
-            <sys_created_by>Monica</sys_created_by>
-            <sys_created_on>2025-05-29 12:28:38</sys_created_on>
-            <sys_id>7e19cdfdc33d2690c8129bf905013108</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>b8b4ec85c35a2250c8129bf905013166</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
-            <sys_updated_by>Monica</sys_updated_by>
-            <sys_updated_on>2025-05-29 12:28:38</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dead_alive</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>30b4ec85c35a2250c8129bf905013167</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>7</position>
-            <sys_created_by>Monica</sys_created_by>
-            <sys_created_on>2025-05-29 12:28:38</sys_created_on>
-            <sys_id>f219cdfdc33d2690c8129bf905013109</sys_id>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>b4b4ec85c35a2250c8129bf905013167</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
-            <sys_updated_by>Monica</sys_updated_by>
-            <sys_updated_on>2025-05-29 12:28:38</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>purchased_at</element>
-            <position>8</position>
-            <sys_created_by>Monica</sys_created_by>
-            <sys_created_on>2025-05-29 12:28:38</sys_created_on>
-            <sys_id>7a19cdfdc33d2690c8129bf905013109</sys_id>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>3cb4ec85c35a2250c8129bf905013167</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
-            <sys_updated_by>Monica</sys_updated_by>
-            <sys_updated_on>2025-05-29 12:28:38</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>9</position>
-            <sys_created_by>Monica</sys_created_by>
-            <sys_created_on>2025-05-29 12:28:39</sys_created_on>
-            <sys_id>fe19cdfdc33d2690c8129bf905013109</sys_id>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>78b4ec85c35a2250c8129bf905013174</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
-            <sys_updated_by>Monica</sys_updated_by>
-            <sys_updated_on>2025-05-29 12:28:39</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
-            <position>10</position>
-            <sys_created_by>Monica</sys_created_by>
-            <sys_created_on>2025-05-29 12:28:39</sys_created_on>
-            <sys_id>7619cdfdc33d2690c8129bf90501310a</sys_id>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>fcb4ec85c35a2250c8129bf905013174</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
-            <sys_updated_by>Monica</sys_updated_by>
-            <sys_updated_on>2025-05-29 12:28:39</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>kind</element>
-            <position>11</position>
-            <sys_created_by>Monica</sys_created_by>
-            <sys_created_on>2025-05-29 12:28:39</sys_created_on>
-            <sys_id>fa19cdfdc33d2690c8129bf90501310a</sys_id>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>74b4ec85c35a2250c8129bf905013175</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
-            <sys_updated_by>Monica</sys_updated_by>
-            <sys_updated_on>2025-05-29 12:28:39</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>12</position>
-            <sys_created_by>Monica</sys_created_by>
-            <sys_created_on>2025-05-29 12:28:39</sys_created_on>
-            <sys_id>7219cdfdc33d2690c8129bf90501310b</sys_id>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>f8b4ec85c35a2250c8129bf905013175</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
-            <sys_updated_by>Monica</sys_updated_by>
-            <sys_updated_on>2025-05-29 12:28:39</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>event</element>
-            <position>13</position>
-            <sys_created_by>Monica</sys_created_by>
-            <sys_created_on>2025-05-29 12:28:39</sys_created_on>
-            <sys_id>f619cdfdc33d2690c8129bf90501310b</sys_id>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-20 22:25:31</sys_created_on>
+            <sys_id>70b4ec85c35a2250c8129bf905013176</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bonsainow_treename" sys_domain="global" view="Default view">835da67783e229102a3771647daad3d8</sys_ui_section>
-            <sys_updated_by>Monica</sys_updated_by>
-            <sys_updated_on>2025-05-29 12:28:39</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-20 22:25:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
