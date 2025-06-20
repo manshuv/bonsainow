@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sp_page>
+        <name>homepage</name>
+        <sys_id>1234567890abcdef1234567890abcdef</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 22:47:09</sys_created_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 22:47:09</sys_updated_on>
+        <sys_scope>x_snc_bonsainow</sys_scope>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_package>0227e23383e229102a3771647daad316</sys_package>
+        <portal>9876543210abcdef1234567890abcdef</portal>
+        <title>My Bonsai World</title>
+        <description>Bonsai Tree Management Portal Homepage</description>
+        <default>true</default>
+        <client_script>
+            <script>
+                (function() {
+                    var sp = $sp;
+                    var model = sp.model;
+                    
+                    model.set('title', 'My Bonsai World');
+                    model.set('description', 'Welcome to your Bonsai Tree Management Portal');
+                })();
+            </script>
+        </client_script>
+        <client_template>
+            <template>
+                <div class="sp-page">
+                    <h1>{{title}}</h1>
+                    <p>{{description}}</p>
+                    <div class="page-content">
+                        <!-- Widget will be inserted here -->
+                    </div>
+                </div>
+            </template>
+        </client_template>
+        <client_styles>
+            <style>
+                .sp-page {
+                    padding: 20px;
+                }
+                .page-content {
+                    margin-top: 20px;
+                }
+            </style>
+        </client_styles>
+    </sp_page>
+</record_update>
