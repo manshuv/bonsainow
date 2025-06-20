@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c1872a3383e229102a3771647daad329" label="Trees" max_length="40" name="x_snc_bonsainow_treename" type="collection">
+        <element label="Purchase Date" max_length="40" name="purchase_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tree Name" max_length="100" name="tree_name" type="string"/>
+        <element label="Event" max_length="32" name="event" reference="x_snc_bonsainow_event" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Requested" sequence="2" value="requested"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="1500" name="description" type="string"/>
+        <element label="Purchase Price" max_length="20" name="purchase_price" type="currency"/>
+        <element label="Purchased At" max_length="500" name="purchased_at" type="string"/>
+        <element label="Kind" max_length="32" name="kind" reference="x_snc_bonsainow_species" type="reference"/>
+        <index name="index">
+            <element name="event"/>
+        </index>
+        <index name="index2">
+            <element name="kind"/>
+        </index>
+    </element>
+</database>

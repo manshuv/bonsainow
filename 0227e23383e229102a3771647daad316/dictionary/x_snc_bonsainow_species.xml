@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4ba7aa3383e229102a3771647daad37e" label="Species" max_length="40" name="x_snc_bonsainow_species" type="collection">
+        <element label="Scientific Name" max_length="1000" name="scientific_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Common Name" max_length="400" name="common_name" type="string"/>
+    </element>
+</database>

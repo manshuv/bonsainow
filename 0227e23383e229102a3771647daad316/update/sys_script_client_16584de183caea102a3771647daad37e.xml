@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Success Message on Entering a Tree</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    //Type appropriate comment here, and begin script below
+    var desc = g_form.getValue('tree_name');
+	var purchasePrice = g_form.getValue('purchase_price');
+	alert('Purchase Price Value'+purchasePrice);
+    if (!desc && purchasePrice > '100') {
+        g_form.addErrorMessage("You cannot submit this tree because description is empty and purchase price is greater than 100.");
+        return false; //block form submission
+    }
+	return true; //allow submission
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-10 04:09:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>16584de183caea102a3771647daad37e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Success Message on Entering a Tree</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BonsaiNow" source="x_snc_bonsainow">0227e23383e229102a3771647daad316</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BonsaiNow">0227e23383e229102a3771647daad316</sys_scope>
+        <sys_update_name>sys_script_client_16584de183caea102a3771647daad37e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 03:22:47</sys_updated_on>
+        <table>x_snc_bonsainow_treename</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

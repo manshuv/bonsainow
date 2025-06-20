@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Display info msg and set value in descri</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   g_form.setValue(description, "testing the onload client script");
+   g_form.addInfoMessage("create your Incident");
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Monica</sys_created_by>
+        <sys_created_on>2025-05-31 10:02:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4b3a76128379ee502a3771647daad332</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Display info msg and set value in descri</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BonsaiNow" source="x_snc_bonsainow">0227e23383e229102a3771647daad316</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BonsaiNow">0227e23383e229102a3771647daad316</sys_scope>
+        <sys_update_name>sys_script_client_4b3a76128379ee502a3771647daad332</sys_update_name>
+        <sys_updated_by>Monica</sys_updated_by>
+        <sys_updated_on>2025-05-31 10:03:10</sys_updated_on>
+        <table>incident</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Only people with this role can see the purchase price on a tree. </description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_snc_bonsainow.read_purchaseprice_tree</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>read_purchaseprice_tree</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-02 01:28:42</sys_created_on>
+        <sys_id>e5589b7283b962102a3771647daad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_bonsainow.read_purchaseprice_tree</sys_name>
+        <sys_package display_value="BonsaiNow" source="x_snc_bonsainow">0227e23383e229102a3771647daad316</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BonsaiNow">0227e23383e229102a3771647daad316</sys_scope>
+        <sys_update_name>sys_user_role_e5589b7283b962102a3771647daad3ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-02 01:28:42</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BonsaiNow">0227e23383e229102a3771647daad316</application>
+        <file_path/>
+        <instance_id>fe290ed0dbb96d1c91232f17d496194a</instance_id>
+        <instance_name>empmverma1</instance_name>
+        <name>sys_user_role_e5589b7283b962102a3771647daad3ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Only people with this role can see the purchase price on a tree. </description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_snc_bonsainow.read_purchaseprice_tree</name><scoped_admin>false</scoped_admin><suffix>read_purchaseprice_tree</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 01:28:42</sys_created_on><sys_id>e5589b7283b962102a3771647daad3ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_bonsainow.read_purchaseprice_tree</sys_name><sys_package display_value="BonsaiNow" source="x_snc_bonsainow">0227e23383e229102a3771647daad316</sys_package><sys_policy/><sys_scope display_value="BonsaiNow">0227e23383e229102a3771647daad316</sys_scope><sys_update_name>sys_user_role_e5589b7283b962102a3771647daad3ae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 01:28:42</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1635043257</payload_hash>
+        <record_name>x_snc_bonsainow.read_purchaseprice_tree</record_name>
+        <reverted_from/>
+        <source>ca27e23383e229102a3771647daad317</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-02 01:28:42</sys_created_on>
+        <sys_id>ba689b7283b962102a3771647daad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1972e4154860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-02 01:28:42</sys_updated_on>
+        <type>Role</type>
+        <update_guid>be689b725fb96210d1236dbfeb51b223</update_guid>
+        <update_guid_history>be689b725fb96210d1236dbfeb51b223:-1635043257</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_bonsainow.read_purchaseprice_tree">1ec9b9b083026a102a3771647daad3fa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-07 23:43:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>2a84ae352c704e1e9b5f10a31a8c0331</sys_id>
+        <sys_metadata>e5589b7283b962102a3771647daad3ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_bonsainow.read_purchaseprice_tree</sys_name>
+        <sys_package display_value="BonsaiNow" source="x_snc_bonsainow">0227e23383e229102a3771647daad316</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BonsaiNow">0227e23383e229102a3771647daad316</sys_scope>
+        <sys_scope_delete display_value="">119a2f85bc744b0d9f8e389cc8337eb1</sys_scope_delete>
+        <sys_update_name>sys_user_role_e5589b7283b962102a3771647daad3ae</sys_update_name>
+        <sys_update_version display_value="sys_user_role_e5589b7283b962102a3771647daad3ae">ba689b7283b962102a3771647daad324</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-07 23:43:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
